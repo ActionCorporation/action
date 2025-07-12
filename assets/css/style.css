@@ -46,6 +46,9 @@
       object-fit: cover;
       flex-shrink: 0;
     }
+    .card li{
+      padding: .2rem;
+    }
     .card-content {
       padding: 20px;
       flex: 1;
