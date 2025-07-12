@@ -351,9 +351,12 @@ margin-top: 5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: 140px;
+    position: relative;
   }
-
+.item-01 img{
+  margin-left: 0;
+}
   .item-02 {
     margin-top: 1.32rem;
   }
@@ -368,9 +371,20 @@ margin-top: 5rem;
 
   .card-container {
     flex-direction: column;
-    padding: 1rem;
     align-items: center;
     justify-content: center;
+    gap: 0;
+    margin: 0;
+  }
+  .card-container img{
+    margin-top: 1rem;
+  }
+  .about-1{
+    gap: 0;
+  }
+  .about-1 img, .about-2 img, .marcas img, .map img{
+    margin-top: 1rem;
+
   }
 
   .card-offer {
@@ -384,7 +398,11 @@ margin-top: 5rem;
   .btn-card-info {
     justify-content: space-between;
   }
-
+.header__container img{
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
   .assinatura-card {
     padding: 1rem;
   }
@@ -450,7 +468,7 @@ margin-top: 5rem;
     display: none;
   }
   .about-1 img, .about-2 img, .map img, .marcas img, .image, .card-container img, .card-container{
-    width: 300px;
+    width: 90%;
   }
   .socials{
     flex-direction: column;
