@@ -374,7 +374,8 @@ margin-top: 5rem;
     align-items: center;
     justify-content: center;
     gap: 0;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
   }
   .card-container img{
     margin-top: 1rem;
@@ -403,14 +404,6 @@ margin-top: 5rem;
   justify-content: center;
   margin: 2rem 0;
 }
-  .assinatura-card {
-    padding: 1rem;
-  }
-
-  .assinatura {
-    font-size: 1.25rem;
-  }
-
   .plano-title {
     margin-top: 1rem;
     font-size: 1rem;
@@ -423,6 +416,9 @@ margin-top: 5rem;
 
   .btn-assinatura {
     font-size: .8rem;
+  }
+  .assinatura img{
+    width: 100%;
   }
 .about-1, .about-2 {
   flex-direction: column;
