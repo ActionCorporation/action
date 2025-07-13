@@ -21,7 +21,7 @@
         font-weight: bold;
     }
     header img{
-        width: 200px;
+        width: 400px;
         background-color: #51378A;
         border-radius: 1rem;
     }
@@ -102,5 +102,6 @@
     }
     @media(max-width: 600px) {
       header h1 { font-size: 2rem; }
+      header img{ width: 200px;}
       .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
     }
