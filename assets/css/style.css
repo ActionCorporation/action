@@ -8,6 +8,11 @@
         font-family: 'Arial', sans-serif; 
         color: #333; 
     }
+    a[href^="tel"] {
+  color: inherit;
+  text-decoration: none;
+  pointer-events: none; /* opcional: desativa o clique */
+}
     header, section, footer {
          width: 100%; 
         }
